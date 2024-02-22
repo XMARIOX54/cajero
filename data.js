@@ -16,10 +16,13 @@ function mostrarSaldo(){
 
 
 
-
 function  inicioDeSecion(){
     let usuario1 = document.getElementById('usuario1').value;
     let contraseña1 = document.getElementById('contraseña1').value;
+    let usuario2 = document.getElementById('usuario1').value;
+    let contraseña2 = document.getElementById('contraseña1').value;
+    let usuario3 = document.getElementById('usuario1').value;
+    let contraseña3 = document.getElementById('contraseña1').value;
 
     if (usuario1 === 'sebitas123' && contraseña1 === 'gaelito777'){
         contenidoDelForm();
@@ -27,14 +30,25 @@ function  inicioDeSecion(){
         alert("buenas " + usuario1);
         
     }
-    else { 
-        alert("hay un error")
-        inicioDeUsuario = false;
+    else if(usuario2 === 'marisita' && contraseña2 === '1987'){
+        contenidoDelForm();
+        inicioDeUsuario = true;
+        alert("buenas " + usuario1);
+        
+    }
+    else if (usuario3 === 'julixx400' && contraseña3 === 'contraseña'){
+        contenidoDelForm();
+        inicioDeUsuario = true;
+        alert("buenas " + usuario1);
         
     }
     
+    else { 
+        alert("hay un error")
+        inicioDeUsuario = false;
+        }
+    }
 
-}
 //divicion// 
 
 
