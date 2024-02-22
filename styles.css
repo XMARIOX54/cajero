@@ -1,0 +1,75 @@
+
+body {
+    background-color: lightblue;
+}
+#titulo{
+ margin-left: 80vh;   
+ font-family: Arial, Helvetica, sans-serif;
+ margin-bottom: 20vh;
+}
+#opciones{
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#contraseña1{
+    border-radius: 5px;
+}
+#usuario1{
+    border-radius: 5px;
+
+}
+#text-user{
+    margin-left: -56vh;
+}
+
+
+/*cajero automatico*/
+
+
+#boton-sacar {
+    background-color: lightcoral;
+    border-radius: 5px;
+    
+    
+    
+}
+#boton-depositar{
+    border-radius: 5px;
+    background-color: lightgreen;
+}
+#boton-cerrar{
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+
+}
+#boton-donacion{
+    border-radius: 5px;
+    margin-left: 91vh;
+    background-color: lightpink;
+}
+#texto-form{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70vh;
+}
+#text-uni{
+    margin-left: 84vh;
+    margin-top: 15vh;
+}
+#money{
+    margin-left: 87vh;
+}
+#monto{
+    border-radius: 5px;
+}
+#perro-molesto{
+    width: 50vh;
+    margin-left: 74vh;
+    margin-bottom: 4vh;
+    margin-top: -15vh;
+    
+}
+#perro-dormido{
+    margin-left: 70vh;
+    margin-top: 12VH;
+}
