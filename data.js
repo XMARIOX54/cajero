@@ -109,9 +109,7 @@ function donacion(){
        actualizarSaldo();
        var animacionPerro = setInterval(moverPerro, 5 );
 
-    document.getElementById('perro-dormido').style.display = 'none';
-    document.getElementById('perro-caminando').style.display = 'block';
-       
+
     }
 }
         function moverPerro() {
